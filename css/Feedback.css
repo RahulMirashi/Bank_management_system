@@ -1,0 +1,45 @@
+body
+{
+		text-align: center;
+		background-image: url("banner2.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		color: white;
+}
+
+form
+{
+	margin-top: 30px;
+}
+
+td
+{
+	
+	padding:10px;
+	width:200px;
+	height: 30px;
+	text-align: center;
+}
+input
+{
+	width: 100%;
+	text-align: center;
+	height: 100%;
+}
+
+button
+{
+	margin-top: 10px;
+	position: relative;
+	left: 130px;
+	width: 100px;
+	border:1px solid;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	height: 30px
+}
+textarea
+{
+	width: 100%;
+	text-align: center;
+}

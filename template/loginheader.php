@@ -26,16 +26,15 @@
     </style>
 </head>
 <body>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <a class="navbar-brand" href="#">BANK</a>
-  <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-  </button> -->
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+  </button>
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <div class=" my-2 my-lg-0">
+      <!-- <button class="btn btn-outline-success my-2 my-sm-0" type="submit" ><a href="login.php"> Login</a></button>
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit" ><a href="register.php"> Register</a></button> -->
       <button class="btn btn-outline-success my-2 my-sm-0" type="submit" ><a href="home.php"> Home</a></button>
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit" ><a href="register.php"> Register</a></button>
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit" ><a href="login.php"> Login</a></button>
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit" ><a href="adminlogin.php"> AdminLogin</a></button>
       <button class="btn btn-outline-success my-2 my-sm-0" type="submit" ><a href="feedback.php"> Feedback</a></button>
     </div>
   </div>

@@ -1,4 +1,4 @@
-<footer class="page-footer font-small blue pt-4 ">
+<footer class="page-footer font-small blue pt-4" style="position:absolute; bottom: 0; width: 100%;">
   <div class="container">
     
     <div class="row">

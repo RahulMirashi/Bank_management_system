@@ -1,8 +1,9 @@
+<?php include('template/loginheader.php');?>
 <!DOCTYPE html>
- <html>
- <head>
- 	<title>Customer page</title>
- 	<link rel="stylesheet" type="text/css" href="css/admin.css">
+<html>
+ 	<head>
+ 		<title>Customer page</title>
+ 		<link rel="stylesheet" type="text/css" href="css/admin.css">
  </head>
  <body>
  <?php 

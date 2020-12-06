@@ -7,7 +7,7 @@
     
     <section class="container">
         <div class="col-lg 8 m-auto d-block">
-        <h4 class="text success text-cente">Registration Form</h4>
+        <h4 class="text success text-center">Registration Form</h4>
         <form action="registerprocess.php" method="POST" class="bg-light">
             <label> Enter your ID:</label>
             <input type="text" name="cid" class="form-control" id="cid" oninput = "return validation()">
