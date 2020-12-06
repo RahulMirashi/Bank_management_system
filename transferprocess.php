@@ -3,7 +3,7 @@
     if(isset($_POST['submit']))
     {
 
-        $cid = "101";
+        $cid = $_SESSION['user'];
         $sql = "SELECT accno FROM bank_account WHERE cid = '".$cid."'";
         $src_sql = mysqli_query($conn,$sql);
         $src = 0;
@@ -36,11 +36,11 @@
         echo $res_check;
         if ($cbal-$amount<0)
         {
-            header("Location:customer.php?invalid=Transaction failed! Insuffient Funds!");
+            header("Location:customer.php?status_bad=Transaction failed! Insuffient Funds!");
         }
         else if($res_check == '')
         {
-            header("Location:customer.php?invalid=Transaction failed! Destination account does not exist!!"); 
+            header("Location:customer.php?status_bad=Transaction failed! Destination account does not exist!!"); 
         }
         else
         {
@@ -59,7 +59,7 @@
             $dummy = mysqli_query($conn,$sql);
             $sql = "INSERT INTO transactions (tid, type, amount, main, src, dest) VALUES ('".$id."', 'Transfer', '".$amount."', '".$src."', '".$src."', '".$dest."')";
             $dummy = mysqli_query($conn,$sql);
-            header("Location:customer.php?Status=Transaction Successful");
+            header("Location:customer.php?status_good=Transaction Successful!");
         }
     }
 ?>

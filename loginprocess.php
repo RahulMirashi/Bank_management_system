@@ -14,11 +14,13 @@
 
             if(mysqli_fetch_assoc($result)){
                 $_SESSION['user']=$_POST['cid'];
-<<<<<<< Updated upstream
+                $sql = "SELECT accno from bank_account where cid='".$_POST['cid']."'";
+                $res = mysqli_query($conn,$query);
+                while($row = mysqli_fetch_assoc($res))
+                {
+                    $_SESSION['acc'] = $row['accno'];
+                }; 
                 header("Location:customer.php");
-=======
-                header("Location:home.php");
->>>>>>> Stashed changes
  		    }
  		    else{
  				header("Location:login.php?invalid=Invalid Username Or Password!!");

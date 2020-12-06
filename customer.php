@@ -41,7 +41,7 @@ if(isset($_GET['status_bad']))
 				<a href="deposit.php" style=" color: white;background-color: black; border:2px solid; height: 20px; width:300px">Deposite</a>
 				<a href="withdraw.php"style=" color: white;background-color: black; border:2px solid; height: 20px; width:300px">Withdraw</a>
 				<a href="transfer.php" style=" color: white;background-color: black; border:2px solid; height: 20px; width:300px">Transfer</a>
-				<a href="transactionlog.php" style=" color: white;background-color: black; border:2px solid; height: 20px; width:300px">Log</a>
+				<a href="log.php" style=" color: white;background-color: black; border:2px solid; height: 20px; width:300px">Log</a>
 				
  		</div>
  </body>
