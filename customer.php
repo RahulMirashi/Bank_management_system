@@ -55,3 +55,4 @@ if($_GET['invalid'] == "True")
  		</div>
  </body>
  </html>
+ <?php include('template/footer.php');?>

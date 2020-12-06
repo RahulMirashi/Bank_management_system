@@ -12,7 +12,9 @@
     <?php include('template/header.php');?>
 <body>
     <div class="center">
-        <img src="img/bank_logo.jpg" alt="Bank">
+        <!-- <img src="img/bank_logo.jpg" alt="Bank"> -->
+        <img src="img/mazebank.jpg" alt="Bank" style="height :80%">
+        <!-- <img src="img/Mazebanktrans.png" alt="Bank"> -->
     </div>
     <div class="text-center">
         <?php
@@ -23,10 +25,9 @@
         ?>
     </div>
     <br/>
-    <div class="container-fluid bg-dark text-center">
-       <p> WELCOME TO MAZE BANK </p>
-    </div>
+    
+       <p style="font-size:30px; text-align:center"> WELCOME TO OUR WEBSITE </p>
+   
     </br>
 </body>
-    <?php include('template/footer.php');?>
-</html>
+<?php include('template/footer.php');?>  

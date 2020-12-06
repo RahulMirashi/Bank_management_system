@@ -14,7 +14,7 @@
 
             if(mysqli_fetch_assoc($result)){
                 $_SESSION['user']=$_POST['bssn'];
-                header("Location:home.php");
+                header("Location:admin.php");
  		    }
  		    else{
  				header("Location:adminlogin.php?invalid=Invalid Username Or Password!!");
