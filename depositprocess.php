@@ -3,7 +3,7 @@
     if(isset($_POST['submit']))
     {
 
-        $cid = "101";
+        $cid = $_SESSION['user'];
         $sql = "SELECT accno FROM bank_account WHERE cid = '".$cid."'";
         $dest_sql = mysqli_query($conn,$sql);
         $dest = 0;
@@ -32,6 +32,6 @@
         $sql = "INSERT INTO transactions (tid, type, amount, main, src, dest) VALUES ('".$id."', 'Deposit', '".$amount."', '".$dest."', '0', '0')";
         echo ($sql);
         $dummy = mysqli_query($conn,$sql);
-        header("Location:customer.php?Status=Transaction Successful");
+        header("Location:customer.php?status_good=Transaction Successful!");
     }
 ?>

@@ -14,11 +14,9 @@
 
             if(mysqli_fetch_assoc($result)){
                 $_SESSION['user']=$_POST['cid'];
-<<<<<<< Updated upstream
-                header("Location:customer.php");
-=======
-                header("Location:home.php");
->>>>>>> Stashed changes
+                $sql = "UPDATE customer SET isloggedin=1 where cid = '".$_post['cid']."'";
+                $dummy = mysqli_query($conn,$sql);
+                header("Location:customer.php?status_good=Login successful!");
  		    }
  		    else{
  				header("Location:login.php?invalid=Invalid Username Or Password!!");
