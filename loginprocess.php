@@ -14,7 +14,11 @@
 
             if(mysqli_fetch_assoc($result)){
                 $_SESSION['user']=$_POST['cid'];
+<<<<<<< Updated upstream
                 header("Location:customer.php");
+=======
+                header("Location:home.php");
+>>>>>>> Stashed changes
  		    }
  		    else{
  				header("Location:login.php?invalid=Invalid Username Or Password!!");
