@@ -7,7 +7,7 @@
     
     <section class="container">
         <div class="col-lg 8 m-auto d-block">
-        <h4 class="text success">Login Form</h4>
+        <h4 class="text success text-cente">Registration Form</h4>
         <form action="registerprocess.php" method="POST" class="bg-light">
             <label> Enter your ID:</label>
             <input type="text" name="cid" class="form-control" id="cid" oninput = "return validation()">
@@ -26,11 +26,11 @@
             <p id="pcaddress" class="text-danger font-weight-bold"></p>
 
             <label> Enter your password:</label>
-            <input type="text" name="cpass" class="form-control" id="cpass" oninput = "return validation()">
+            <input type="password" name="cpass" class="form-control" id="cpass" oninput = "return validation()">
             <p id="pcpass" class="text-danger font-weight-bold"></p>
             <br>
             <div class="center">
-            <input type="submit" name="submit" value="submit" id = "register_submit_btn" class = "btn btn-success" disabled>
+            <input type="submit" name="submit" value="Register" id = "register_submit_btn" class = "btn btn-success" disabled>
             </div>
         </div>
     </section>
@@ -107,6 +107,9 @@
                     
                     if($flag==1){
                         document.getElementById('register_submit_btn').disabled=false;
+                    }
+                    else{
+                        document.getElementById('register_submit_btn').disabled=true;
                     }
                 return false;
             }
