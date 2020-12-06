@@ -3,7 +3,7 @@
 	$conn = new mysqli("localhost","root","","bank");
 
 	if(!$conn){
-		die('Please check yout connection'.mysqli_error());
+		die('Please check your connection'.mysqli_error());
 	}
 ?>
 
