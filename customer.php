@@ -38,7 +38,7 @@ if(isset($_GET['status_bad']))
 			?>
 				
 				<a href="myaccount.php" class = "btn btn-success"style=" color: white; border:2px solid; height: 40px; width:300px">MyAccount</a></br>
-				<a href="deposit.php" class = "btn btn-success"style=" color: white; border:2px solid; height: 40px; width:300px">Deposite</a></br>
+				<a href="deposit.php" class = "btn btn-success"style=" color: white; border:2px solid; height: 40px; width:300px">Deposit</a></br>
 				<a href="withdraw.php" class = "btn btn-success"style=" color: white; border:2px solid; height: 40px; width:300px">Withdraw</a></br>
 				<a href="transfer.php" class = "btn btn-success" style=" color: white; border:2px solid; height: 40px; width:300px">Transfer</a></br>
 				<a href="log.php" class = "btn btn-success" style=" color: white; border:2px solid; height: 40px; width:300px">Log</a></br>

@@ -1,5 +1,4 @@
 <?php
-    session_start();
     include('connection.php');
 
     if(isset($_POST['login'])){
@@ -9,16 +8,17 @@
         }
         else{
             $query = "SELECT * FROM customer WHERE cid = '".$_POST['cid']."' and cpass = '".$_POST['cpass']."'";
-
             $result = mysqli_query($conn,$query);
-
             if(mysqli_fetch_assoc($result)){
                 $_SESSION['user']=$_POST['cid'];
+                
                 $sql = "SELECT accno from bank_account where cid='".$_POST['cid']."'";
-                $res = mysqli_query($conn,$query);
+                $res = mysqli_query($conn,$sql);
+
                 while($row = mysqli_fetch_assoc($res))
                 {
                     $_SESSION['acc'] = $row['accno'];
+                    var_dump ($row);
                 }; 
                 header("Location:customer.php");
  		    }

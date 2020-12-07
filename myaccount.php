@@ -26,10 +26,9 @@ include('template/loginheader.php');
  				</tr>
  			<?php
                 $cid = $_SESSION['user'];
-                $accno = $_SESSION['acc'];
+				$accno = $_SESSION['acc'];
 			 	$sql = "SELECT c.cid,b.accno,c.cfname,c.clname,c.caddress,b.balance,b.cardno FROM customer c, bank_account b WHERE c.cid='".$cid."' AND b.accno='".$accno."'";
 				$res = mysqli_query($conn,$sql);
-				
 				while($row1=mysqli_fetch_assoc($res))
 				{
 					?>
@@ -43,8 +42,8 @@ include('template/loginheader.php');
 					</tr>
 					<?php
 				}
-				 ?>
-				 </table>
+				?>
+				</table>
  		</div>
  </body>
  </html>
