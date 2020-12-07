@@ -34,7 +34,7 @@ include('template/loginheader.php');
 				}
 				?>
 				</table>
-				<a href="customer.php" class = "btn btn-success" style=" color: white; border:2px solid; height: 40px; width:100px">Back</a></br>
+				<a href="customer.php" class = "btn btn-success" style=" color: white; border:2px solid; height: 40px; width:100px; margin-top: 30px !important;">Back</a></br>
  		</div>
 </body>
 </html>

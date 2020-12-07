@@ -9,6 +9,18 @@
 .btn a {
     text-decoration: none;
 }
-body{
+body {
     background-image: url("https://i.pinimg.com/originals/86/66/85/866685bdd4bbc516ec1a13c956d4d7bf.jpg%22");
+}
+
+.sign-up-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 500px;
+}
+
+.btn {
+    margin-top: 10px !important;
 }
