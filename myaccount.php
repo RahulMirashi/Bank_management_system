@@ -22,7 +22,8 @@ include('template/loginheader.php');
  					<th>First Name</th>
  					<th>Last Name</th>
  					<th>Address</th>
- 					<th>Balance</th>
+					<th>Balance</th>
+					<th>Card no.</th>
  				</tr>
  			<?php
                 $cid = $_SESSION['user'];
@@ -44,6 +45,7 @@ include('template/loginheader.php');
 				}
 				?>
 				</table>
+				<a href="customer.php" class = "btn btn-success" style=" color: white; border:2px solid; height: 40px; width:100px">Back</a></br>
  		</div>
  </body>
  </html>

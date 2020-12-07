@@ -47,8 +47,10 @@
 				 ?>
 
 				 </table>
+			</br>
+				 <a href="delete.php" class = "btn btn-success"style=" color: white; border:2px solid; height: 40px; width:300px">Remove customer</a></br>	
                  <a href="home.php" class = "btn btn-success"style=" color: white; border:2px solid; height: 40px; width:300px" id = "logout">Logout</a></br>
-				 <a href="delete.php" class = "btn btn-success"style=" color: white; border:2px solid; height: 40px; width:300px">Remove customer</a></br>
+				 
  		</div>
 
  </body>
