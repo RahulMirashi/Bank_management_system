@@ -28,8 +28,8 @@ if(isset($_GET['status_bad']))
 }
 ?>
 
- 		<div>
- 			<h2>Account Details</h2>		
+ 		<div class="center">
+ 			<h2>Main menu</h2>		
             <?php
  				$test = $_SESSION['user'];
  				$a = (int)$test;
@@ -37,11 +37,11 @@ if(isset($_GET['status_bad']))
 				$res = mysqli_query($conn,$sql);
 			?>
 				
-				<a href="myaccount.php"style=" color: white;background-color: black; border:2px solid; height: 20px; width:300px">MyAccount</a>
-				<a href="deposit.php" style=" color: white;background-color: black; border:2px solid; height: 20px; width:300px">Deposite</a>
-				<a href="withdraw.php"style=" color: white;background-color: black; border:2px solid; height: 20px; width:300px">Withdraw</a>
-				<a href="transfer.php" style=" color: white;background-color: black; border:2px solid; height: 20px; width:300px">Transfer</a>
-				<a href="log.php" style=" color: white;background-color: black; border:2px solid; height: 20px; width:300px">Log</a>
+				<a href="myaccount.php" class = "btn btn-success"style=" color: white; border:2px solid; height: 40px; width:300px">MyAccount</a></br>
+				<a href="deposit.php" class = "btn btn-success"style=" color: white; border:2px solid; height: 40px; width:300px">Deposite</a></br>
+				<a href="withdraw.php" class = "btn btn-success"style=" color: white; border:2px solid; height: 40px; width:300px">Withdraw</a></br>
+				<a href="transfer.php" class = "btn btn-success" style=" color: white; border:2px solid; height: 40px; width:300px">Transfer</a></br>
+				<a href="log.php" class = "btn btn-success" style=" color: white; border:2px solid; height: 40px; width:300px">Log</a></br>
 				
  		</div>
  </body>
