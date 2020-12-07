@@ -35,7 +35,7 @@
       <button class="btn btn-outline-success my-2 my-sm-0" type="submit" ><a href="register.php"> Register</a></button>
       <button class="btn btn-outline-success my-2 my-sm-0" type="submit" ><a href="login.php"> Login</a></button>
       <button class="btn btn-outline-success my-2 my-sm-0" type="submit" ><a href="adminlogin.php"> AdminLogin</a></button>
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit" ><a href="feedback.php"> Feedback</a></button>
+      <!-- <button class="btn btn-outline-success my-2 my-sm-0" type="submit" ><a href="feedback.php"> Feedback</a></button> -->
     </div>
   </div>
 </nav>

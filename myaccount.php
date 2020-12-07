@@ -9,7 +9,7 @@ include('template/loginheader.php');
  </head>
  <body style="background-color: grey lighten-2">
  	
- 	<h2 id = "heading" style="text-align: center">Admin Panel</h2>
+ 	<!-- <h2 id = "heading" style="text-align: center">Personal and account details</h2> -->
  	
  		<div>
 
