@@ -10,6 +10,8 @@
 <!DOCTYPE html>
 <html lang="en">
     <?php include('template/header.php');?>
+    <link rel="preconnect" href="https://fonts.gstatic.com/%22%3E">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
 <body>
     <div class="center">
         <!-- <img src="img/bank_logo.jpg" alt="Bank"> -->
@@ -25,13 +27,58 @@
         ?>
     </div>
     <br/>
-    <div class="container-fluid bg-dark">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-    </div>
-    <br/>
     
-       <p style="font-size:30px; text-align:center"> WELCOME TO OUR WEBSITE </p>
+       <p style="font-size:30px; text-align:center; font-style: italic;font-family:'Montserrat', sans-serif;"> "Invest in the red, it's in your interest" </p>
    
     </br>
+    <div class="container-fluid bg-dark" style="font-size:17px; width:60%; text-align:center; font-family:'Montserrat', sans-serif;">
+        Maze has been the target from more boycotts, demonstrations and civil right lawsuits than any other bank in America. Access to that wealth of experience doesn't come cheap, but a good education is an investment worth any price.
+    </div>
+    <br/>
 </body>
-<?php include('template/footer.php');?>  
+
+<footer class="page-footer font-small blue pt-4" style="position:absolute; width: 100%;">
+  <div class="container">
+    
+    <div class="row">
+     
+      <div class="col-md-4 mb-md-0 mb-3">
+        <h5>BANK</h5>
+        <ul class="list-unstyled">
+          <li>
+            <a href="#!">About us</a>
+          </li>
+          <li>
+            <a href="#!">Developers</a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-md-4 mb-md-0 mb-3">
+        
+        <h5 class="More">Links</h5>
+        <ul class="list-unstyled">
+          <li>
+            <a href="<?php echo SROOT."#!"; ?>">Something here</a>
+          </li>
+          <li>
+            <a href="<?php echo SROOT."#!"; ?>">Something here</a>
+          </li>
+          <li>
+            <a href="<?php echo SROOT."#!"; ?>">Something here</a>
+          </li>
+        </ul>
+      </div>
+      
+      <div class="col-md-4 mb-md-0 mb-3">
+        
+        <h5 class="">Get in touch</h5>
+        <ul class="list-unstyled">
+          <li>
+            <a href="#!">Toll Free no. </a>
+          </li>
+        </ul>
+      </div>
+      
+    </div>
+    
+  </div>  

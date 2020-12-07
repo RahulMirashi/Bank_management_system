@@ -6,7 +6,9 @@
     font-family: "Oswald", sans-serif;
     color: #131313;
 }
-.btn a{
+.btn a {
     text-decoration: none;
-
+}
+body{
+    background-image: url("https://i.pinimg.com/originals/86/66/85/866685bdd4bbc516ec1a13c956d4d7bf.jpg%22");
 }
