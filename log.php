@@ -17,18 +17,23 @@ include('template/loginheader.php');
  				<tr style="padding: 10px">
                     <th style="padding: 10px">Transaction type</th>
  					<th style="padding: 10px">Amount</th>
- 					<th style="padding: 10px">Destination Account</th>
+ 					<th style="padding: 10px">Home Account</th>
+					<th style="padding: 10px">Source Account</th>
+					<th style="padding: 10px">Destination Account</th>
  				</tr>
  			<?php 
                 $accno = $_SESSION['acc'];
-                $sql = "SELECT type, amount, dest from transactions where main = '".$accno."'";
+                $sql = "SELECT type, amount, main, src, dest from transactions where main = '".$accno."'";
 				$res = mysqli_query($conn,$sql);
 				while($row=mysqli_fetch_assoc($res))
 				{
 					?>
 					<tr><td style="padding: 10px"><?php echo $row['type'];?></td>
                         <td style="padding: 10px"><?php echo $row['amount'];?></td>
-						<td style="padding: 10px"><?php if($row['type']=='Transfer') {echo $row['dest'];} else{echo "-";}?></td>
+						<td style="padding: 10px"><?php echo $row['main'];?></td>
+						<td style="padding: 10px"><?php echo $row['src'];?></td>
+						<td style="padding: 10px"><?php echo $row['dest'];?></td>
+						
 					</tr>
 					<?php 
 				}

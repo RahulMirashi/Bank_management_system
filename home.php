@@ -28,10 +28,10 @@
     </div>
     <br/>
     
-       <p style="font-size:30px; text-align:center; font-style: italic;font-family:'Montserrat', sans-serif;"> "Invest in the red, it's in your interest" </p>
+       <p class="card container-fluid" style="font-size:30px; width:40%; text-align:center; text-align:center; font-style: italic;font-family:'Montserrat', sans-serif;"> "Invest in the red, it's in your interest" </p>
    
     </br>
-    <div class="container-fluid bg-dark" style="font-size:17px; width:60%; text-align:center; font-family:'Montserrat', sans-serif;">
+    <div class="container-fluid bg-dark " style="font-size:17px; width:60%; text-align:center; font-family:'Montserrat', sans-serif;">
         Maze has been the target from more boycotts, demonstrations and civil right lawsuits than any other bank in America. Access to that wealth of experience doesn't come cheap, but a good education is an investment worth any price.
     </div>
     <br/>

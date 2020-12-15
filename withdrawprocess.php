@@ -34,7 +34,7 @@
             $id = $id + 1;
             $sql = "UPDATE bank_account SET balance='".$cbal_f."' WHERE cid = '".$cid."'";
             $dummy = mysqli_query($conn,$sql);
-            $sql = "INSERT INTO transactions (tid, type, amount, main, src, dest) VALUES ('".$id."', 'Withdraw', '".$amount."', '".$src."', '0', '0')";
+            $sql = "INSERT INTO transactions (tid, type, amount, main, src, dest) VALUES ('".$id."', 'Withdraw', '".$amount."', '".$src."', '".$src."', '201')";
             $dummy = mysqli_query($conn,$sql);
             header("Location:customer.php?status_good=Transaction Successful!");
         }
